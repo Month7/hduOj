@@ -1,0 +1,7 @@
+﻿  源.cpp
+d:\hduoj\1002复杂的a+b\1002复杂的a+b\源.cpp(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\1002复杂的a+b\1002复杂的a+b\源.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\1002复杂的a+b\1002复杂的a+b\源.cpp(63): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  1002复杂的A+B.vcxproj -> D:\hduOj\1002复杂的A+B\Debug\1002复杂的A+B.exe
+  1002复杂的A+B.vcxproj -> D:\hduOj\1002复杂的A+B\Debug\1002复杂的A+B.pdb (Full PDB)
