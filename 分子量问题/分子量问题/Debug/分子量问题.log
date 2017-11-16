@@ -1,0 +1,7 @@
+﻿  源.cpp
+d:\hduoj\分子量问题\分子量问题\源.cpp(6): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\hduoj\分子量问题\分子量问题\源.cpp(6): warning C4305: “初始化”: 从“double”到“float”截断
+d:\hduoj\分子量问题\分子量问题\源.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  分子量问题.vcxproj -> D:\hduOj\分子量问题\Debug\分子量问题.exe
+  分子量问题.vcxproj -> D:\hduOj\分子量问题\Debug\分子量问题.pdb (Full PDB)
