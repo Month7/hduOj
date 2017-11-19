@@ -6,7 +6,6 @@ using namespace std;
 int main() {
 	int n;
 	string s;
-
 	map<string, int> flag;
 	while (scanf("%d",&n)&&n) {
 		flag.clear();
@@ -21,7 +20,7 @@ int main() {
 		}
 			map<string, int>::iterator max = flag.begin();
 			for (map<string, int>::iterator it = flag.begin(); it != flag.end(); it++) {
-				if (it->second > max->second) {
+				if (it->second >= max->second) {
 					max = it;
 				}
 			}
