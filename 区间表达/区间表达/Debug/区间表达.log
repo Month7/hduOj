@@ -1,0 +1,6 @@
+﻿  源.cpp
+d:\hduoj\区间表达\区间表达\源.cpp(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\区间表达\区间表达\源.cpp(18): warning C4101: “result”: 未引用的局部变量
+  区间表达.vcxproj -> D:\hduOj\区间表达\Debug\区间表达.exe
+  区间表达.vcxproj -> D:\hduOj\区间表达\Debug\区间表达.pdb (Full PDB)

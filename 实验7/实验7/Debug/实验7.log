@@ -1,0 +1,5 @@
+﻿  源.cpp
+d:\hduoj\实验7\实验7\源.cpp(12): warning C4101: “b”: 未引用的局部变量
+d:\hduoj\实验7\实验7\源.cpp(11): warning C4101: “buff”: 未引用的局部变量
+  实验7.vcxproj -> D:\hduOj\实验7\Debug\实验7.exe
+  实验7.vcxproj -> D:\hduOj\实验7\Debug\实验7.pdb (Full PDB)

@@ -1,0 +1,6 @@
+﻿  源.cpp
+d:\hduoj\分子式\分子式\源.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\分子式\分子式\源.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\分子式\分子式\源.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+  分子式.vcxproj -> D:\hduOj\分子式\Debug\分子式.exe
+  分子式.vcxproj -> D:\hduOj\分子式\Debug\分子式.pdb (Full PDB)

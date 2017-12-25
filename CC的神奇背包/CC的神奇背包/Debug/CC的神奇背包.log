@@ -1,0 +1,13 @@
+﻿  源.cpp
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(119): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(120): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(123): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(124): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(115): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(118): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\cc的神奇背包\cc的神奇背包\源.cpp(122): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  CC的神奇背包.vcxproj -> D:\hduOj\CC的神奇背包\Debug\CC的神奇背包.exe
+  CC的神奇背包.vcxproj -> D:\hduOj\CC的神奇背包\Debug\CC的神奇背包.pdb (Full PDB)

@@ -8,47 +8,91 @@
 //*/
 #include<stdio.h>
 #include<ctype.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <stack>
+using namespace std;
+int FindGreatestSumOfSubArray(vector<int> array) {
+	vector<int> res;
+	for (int j = 0; j < array.size()-1; j++) {             //j=4 j++ i=4 i<=4 
+		int count = 0;
+		for (int i = j; i < array.size()-1; i++) {
+			printf("i=%d\n", i);
+			count += array[i];
+			printf("count=%d\n", count);
+			res.push_back(count);
+			if (count + array[i + 1] < 0) {  //如果小于0 那么就跳过
+				i++;
+				count = 0;
+			}
+		}
+		
+	}
+	int result = -100;
+	for (int i = 0; i < res.size(); i++) {
+		if (res[i] > result)
+			result = res[i];
+	}
+	return result;
+}
 int main()
 {
-	char a[20] = { 0 };//定义保存化学式分子种类的数组 
-	float m[] = { 0,0,12.01,0,0,0,0,1.008,0,0,0,0,0,14.01,16.00 };//表示原子质量的数组 
-	float sum = 0;
-	int i = 0, j = 0;
-	char k;
-	printf("输入原子式(#号结束)：");
-	while (1)
-	{
-		scanf("%c", &a[i]);
-		if (a[i] == '#')
-			break;
-		i++;
-	}
-	puts(a);
-	for (i = 0; i != '#'; ++i)
-	{
-		if (isalpha(a[i]))
-		{
-			k = a[i];
-			sum = sum + m[k - 'A'];
-		}
-		else
-		{
-			j = a[i] - '0';
-			while (isdigit(a[i + 1]))
-			{
-				j = j * 10 + (a[i + 1] - '0');
-				i++;
-			}
-			sum = sum + (j - 1)*m[k - 'A'];
-		}
-	}
-	printf("%0.3f", sum);
+	vector<int> test = { 6,-3,-2,7,-9 };
+	int x = FindGreatestSumOfSubArray(test);
+	printf("x=%d\n", x);
 	return 0;
 }
-//吴少港 2017 / 11 / 12 19:40 : 38
-//帮忙看看这个哪里有问题
-//吴少港 2017 / 11 / 12 19 : 40 : 42
-//谢谢啦
-//19 : 48 : 37
-//Moηth丶 2017 / 11 / 12 19 : 48 : 37
+//class Solution {
+//public:
+//	int FindGreatestSumOfSubArray(vector<int> array) {
+//		vector<int> res;
+//		for (int j = 0; j < array.size() - 1; j++) {             //j=4 j++ i=4 i<=4 
+//			int count = 0;
+//			for (int i = j; i <= array.size(); i++) {
+//					count += array[i];
+//					res.push_back(count);
+//				if (count + array[i + 1] < 0) {  //如果小于0 那么就跳过
+//					i++;
+//					count = 0;
+//				}
+//			}
+//			res.push_back(count);
+//		}
+//		int result = -100;
+//		for (int i = 0; i < res.size(); i++) {
+//			if (res[i] > result)
+//				result = res[i];
+//		}
+//		return result;
+//	}
+//};
+/*
+	f(1)=1;
+	f(2)=
+*/
+//1 1 2 3 5 8 13 21
+//1 2 3 4 5 6 7  8
+//f(0)=0
+//f(1)=1
+//f(n)=f(n-1)+f(n-2)
+//第1级 1种方法
+//第2级 2种方法 11 2
+//第3级 1+2 +1种 1 1 1 ，1 2 ，2 1   //3
+//第4级 3+2 +2+1     1111 121 112 211 22  //13 31 4
+//第5级 5+3种 +6  11111 1112 1121 1211 2111 221 122 212 //14 41 5 131 113 311
+//第6级               
+//f(n)=f(n-1)+f(n-2)
+//f(1)=1
+//f(2)=f(2-1)+f(2-2) =2
+//f(3)=f(3-1)+f(3-2)+f(3-3) =4
+//f(4)=f(4-1)+f(4-2)+f(4-3)+1 =8
+//f(5)=f(5-1)+f(5-2)+f(5-3)+f(5-4)+1=
 
+/**
+	f(n)= 1 (n=0||1)
+	f(n)=f(n-1)+f(n-2)...+f(n-n);
+	f(n-1)=f(n-2)+...f(n-n);
+	f(n)-f(n-1)=f(n-1);
+	f(n)=2*f(n-1);
+*/

@@ -1,0 +1,5 @@
+﻿  源.cpp
+d:\hduoj\poj2498\poj2498\源.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\poj2498\poj2498\源.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+  poj2498.vcxproj -> D:\hduOj\poj2498\Debug\poj2498.exe
+  poj2498.vcxproj -> D:\hduOj\poj2498\Debug\poj2498.pdb (Full PDB)

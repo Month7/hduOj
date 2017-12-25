@@ -1,0 +1,7 @@
+﻿  源.cpp
+d:\hduoj\数字游戏\数字游戏\源.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\数字游戏\数字游戏\源.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\数字游戏\数字游戏\源.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\数字游戏\数字游戏\源.cpp(7): warning C4101: “w”: 未引用的局部变量
+  数字游戏.vcxproj -> D:\hduOj\数字游戏\Debug\数字游戏.exe
+  数字游戏.vcxproj -> D:\hduOj\数字游戏\Debug\数字游戏.pdb (Full PDB)

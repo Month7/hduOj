@@ -1,0 +1,11 @@
+﻿  源.cpp
+d:\hduoj\item4\item4\源.cpp(4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\item4\item4\源.cpp(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\item4\item4\源.cpp(3): warning C4101: “t2”: 未引用的局部变量
+d:\hduoj\item4\item4\源.cpp(3): warning C4101: “t1”: 未引用的局部变量
+d:\hduoj\item4\item4\源.cpp(3): warning C4101: “i”: 未引用的局部变量
+d:\hduoj\item4\item4\源.cpp(3): warning C4101: “t”: 未引用的局部变量
+  item4.vcxproj -> D:\hduOj\item4\Debug\item4.exe
+  item4.vcxproj -> D:\hduOj\item4\Debug\item4.pdb (Full PDB)

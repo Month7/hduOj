@@ -1,0 +1,7 @@
+﻿  源.cpp
+d:\hduoj\求个位数字\求个位数字\源.cpp(6): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\hduoj\求个位数字\求个位数字\源.cpp(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  求个位数字.vcxproj -> D:\hduOj\求个位数字\Debug\求个位数字.exe
+  求个位数字.vcxproj -> D:\hduOj\求个位数字\Debug\求个位数字.pdb (Full PDB)

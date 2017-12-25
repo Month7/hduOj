@@ -1,0 +1,6 @@
+﻿  源.cpp
+d:\hduoj\拼凑正方形\拼凑正方形\源.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+d:\hduoj\拼凑正方形\拼凑正方形\源.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  拼凑正方形.vcxproj -> D:\hduOj\拼凑正方形\Debug\拼凑正方形.exe
+  拼凑正方形.vcxproj -> D:\hduOj\拼凑正方形\Debug\拼凑正方形.pdb (Full PDB)
